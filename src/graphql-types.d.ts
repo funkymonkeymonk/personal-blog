@@ -1725,6 +1725,7 @@ export type MarkdownRemarkFilterInput = {
 
 export type MarkdownRemarkFrontmatter = {
   __typename?: "MarkdownRemarkFrontmatter";
+  link?: Maybe<string>;
   title?: Maybe<Scalars["String"]>;
   createdDate?: Maybe<Scalars["Date"]>;
   updatedDate?: Maybe<Scalars["Date"]>;
