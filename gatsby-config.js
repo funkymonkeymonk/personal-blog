@@ -51,8 +51,8 @@ module.exports = {
     },
 
     // Parse all images files
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
 
     // Parse JSON files
     `gatsby-transformer-json`,

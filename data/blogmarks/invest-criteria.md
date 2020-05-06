@@ -7,7 +7,6 @@ updatedDate: '2020-05-03'
 tags:
   - new
 public: true
-image: ""
 ---
 
 slug

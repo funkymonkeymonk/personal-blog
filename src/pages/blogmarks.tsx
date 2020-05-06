@@ -58,7 +58,7 @@ const BlogmarksPage = (props: BlogmarksProps) => {
         return (
           <Card key={frontmatter.title}
             fluid
-            image={cover}
+            // image={cover}
             href={frontmatter.link}
             meta={frontmatter.link}
             header={frontmatter.title}

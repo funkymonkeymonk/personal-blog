@@ -8,7 +8,6 @@ tags:
   - games
   - teambuilding
 public: true
-image: ""
 ---
 
 slug

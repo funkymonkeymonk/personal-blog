@@ -9,7 +9,6 @@ tags:
   - tech talks
   - funny
 public: true
-image: ""
 ---
 
 https://www.twitch.tv/videos/607023501
