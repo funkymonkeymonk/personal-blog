@@ -31,11 +31,11 @@ describe('data integrity', () => {
     const posts = fs.readdirSync('data/blog');
     const validators = [
       {key: 'title', validator: _.isString},
-      {key: 'createdDate', validator: val => _.isDate(new Date(val))},
-      {key: 'updatedDate', validator: val => _.isDate(new Date(val))},
-      {key: 'author', validator: val => _.map(authors, 'id').includes(val)},
+      {key: 'createdDate', validator: value => _.isDate(new Date(value))},
+      {key: 'updatedDate', validator: value => _.isDate(new Date(value))},
+      {key: 'author', validator: value => _.map(authors, 'id').includes(value)},
       {key: 'tags', validator: _.isArray},
-      {key: 'image', validator: (val, post) => fs.existsSync(`data/blog/${post}/${val}`)},
+      {key: 'image', validator: (value, post) => fs.existsSync(`data/blog/${post}/${value}`)},
       {key: 'draft', validator: _.isBoolean}
     ];
 

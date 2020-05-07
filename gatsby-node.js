@@ -7,7 +7,7 @@ const {kebabCase, uniq, get, compact, times} = require('lodash');
 // - `pages/blog.tsx:26`
 // - `pages/blog.tsx:121`
 const POSTS_PER_PAGE = 10;
-const cleanArray = arr => compact(uniq(arr));
+const cleanArray = array => compact(uniq(array));
 
 // Create slugs for files.
 // Slug will used for blog page path.
