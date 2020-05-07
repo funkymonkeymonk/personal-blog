@@ -10,8 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: enriikke/gatsby-gh-pages-action@v2
+      - uses: funkymonkeymonk/gatsby-gh-pages-action
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
           gatsby-args: --prefix-paths
+          no-optional: true
