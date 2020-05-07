@@ -2,7 +2,7 @@
 /* tslint:disable no-console */
 
 import * as React from "react";
-import Helmet from "react-helmet";
+import { Helmet } from "react-helmet";
 
 const config = require("../gatsby-config.js");
 
