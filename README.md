@@ -1,7 +1,7 @@
 # Gatsby 2.0 starter
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
-![Gatsby Publish](https://github.com/funkymonkeymonk/personal-blog/workflows/Gatsby%20Publish/badge.svg)
+![Deploy](https://github.com/funkymonkeymonk/personal-blog/workflows/Deploy/badge.svg)
 [![Code Climate](https://codeclimate.com/github/fabien0102/gatsby-starter/badges/gpa.svg)](https://codeclimate.com/github/fabien0102/gatsby-starter)
 [![Test Coverage](https://codeclimate.com/github/fabien0102/gatsby-starter/badges/coverage.svg)](https://codeclimate.com/github/fabien0102/gatsby-starter/coverage)
 
