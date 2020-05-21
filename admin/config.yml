@@ -1,0 +1,41 @@
+backend:
+  name: github
+  repo: funkymonkeymonk/personal-blog
+media_folder: static/assets
+public_folder: /assets
+collections:
+  - name: blogmark
+    label: Blogmark
+    folder: data/blogmarks
+    create: true
+    fields:
+      - { name: title, label: Title }
+      - { name: link, label: Link}
+      - {
+          name: body,
+          label: Body,
+          widget: markdown,
+          default: "Not used yet."
+        }
+      - {
+          name: author,
+          label: Author,
+          widget: "hidden",
+          default: "Will Weaver"
+        }
+      - { 
+          name: createdDate,
+          label: Created Date,
+          widget: datetime,
+          timeFormat: false,
+          format: 'YYYY-MM-DD'
+        }
+      - { 
+          name: updatedDate,
+          label: Updated Date,
+          widget: datetime,
+          timeFormat: false,
+          format: 'YYYY-MM-DD'
+        }
+      - { name: tags, label: Tags, widget: "list"}
+      - { name: public, label: Public, widget: boolean}
