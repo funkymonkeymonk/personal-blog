@@ -9,11 +9,20 @@ collections:
     folder: data/blogmarks
     create: true
     fields:
-      # - { name: path, label: Path }
       - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown, default: "Not used yet." }
       - { name: link, label: Link}
-      - { name: author, label: Author, default: "Will Weaver" }
+      - {
+          name: body,
+          label: Body,
+          widget: markdown,
+          default: "Not used yet."
+        }
+      - {
+          name: author,
+          label: Author,
+          widget: "hidden",
+          default: "Will Weaver"
+        }
       - { 
           name: createdDate,
           label: Created Date,
