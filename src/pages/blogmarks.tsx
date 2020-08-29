@@ -21,10 +21,10 @@ interface BlogmarksProps extends LayoutProps {
 }
 
 const BlogmarksPage = (props: BlogmarksProps) => {
-  const tags = props.data.tags.group;
+  // const tags = props.data.tags.group;
   const blogmarks = props.data.posts.edges;
-  const { pathname } = props.location;
-  const pageCount = Math.ceil(props.data.posts.totalCount / 10);
+  // const { pathname } = props.location;
+  // const pageCount = Math.ceil(props.data.posts.totalCount / 10);
 
   // TODO export posts in a proper component
   const Blogmarks = (
@@ -110,7 +110,7 @@ query PageBlogmarks {
     filter: {
       fileAbsolutePath: { regex: "/blogmarks/" }
     },
-    limit: 10
+    limit: 1000
   ) {
     totalCount
     edges {
