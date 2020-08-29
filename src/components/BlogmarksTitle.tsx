@@ -9,7 +9,7 @@ export default () => {
         <Header.Content>
           Blogmarks
             <Header.Subheader>
-            Interesting links and possibly interesting commentary
+            Interesting links I've picked up along the way and tend to share alot.
             </Header.Subheader>
         </Header.Content>
       </Header>

@@ -19,9 +19,6 @@ export const HeaderMenu = ({ items, pathname, Link, inverted, dispatch }: Header
           icon="sidebar"
           onClick={() => dispatch && dispatch(toggleSidebar())}
       />
-      <Menu.Item className="mobile hidden">
-        <Icon name="spy" size="big" />
-      </Menu.Item>
       {items.map((item) => {
         const active = (item.exact) ? pathname === item.path : pathname.startsWith(item.path);
         return <Menu.Item

@@ -13,9 +13,8 @@ import { store } from "../store";
 export const menuItems = [
   { name: "Home", path: "/", exact: true, icon: "home", inverted: true },
   // { name: "About", path: "/about/", exact: true, icon: "info circle" },
-  // { name: "Blogmarks", path: "/blogmarks/", exact: false, icon: "newspaper" },
   // { name: "Blog", path: "/blog/", exact: false, icon: "newspaper" },
-  { name: "All Blogmarks", path: "/blogmarks/", exact: false, icon: "bookmark" },
+  { name: "Blogmarks", path: "/blogmarks/", exact: false, icon: "bookmark" },
 ];
 
 export interface LayoutProps {
