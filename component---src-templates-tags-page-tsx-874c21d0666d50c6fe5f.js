@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[15],{b0KN:function(n,e,u){"use strict";u.r(e),u.d(e,"pageQuery",(function(){return r}));var a=u("1GPU");e.default=a.default;var r="2645663780"}}]);
-//# sourceMappingURL=component---src-templates-tags-page-tsx-874c21d0666d50c6fe5f.js.map
