@@ -3,6 +3,7 @@ name: "Yarn Upgrader"
 on:
   schedule:
     - cron: '21 19 * * 1'
+  workflow_dispatch
 
 jobs:
   build:
