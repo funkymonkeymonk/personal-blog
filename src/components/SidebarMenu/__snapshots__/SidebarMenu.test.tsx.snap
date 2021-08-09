@@ -1,19 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`SidebarMenu component should render correctly 1`] = `
-initialize {
-  "0": Object {
+LoadedCheerio {
+  "0": Node {
     "attribs": Object {
       "class": "ui vertical labeled icon ui slide along left thin visible sidebar menu",
     },
     "children": Array [
-      Object {
+      Node {
         "attribs": Object {
           "class": "active item",
           "to": "/",
         },
         "children": Array [
-          Object {
+          Node {
             "attribs": Object {
               "aria-hidden": "true",
               "class": "icon",
@@ -21,7 +21,7 @@ initialize {
             "children": Array [],
             "name": "i",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "data": "Home",
               "next": null,
               "parent": [Circular],
@@ -40,11 +40,11 @@ initialize {
               "class": undefined,
             },
           },
-          Object {
+          Node {
             "data": "Home",
             "next": null,
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "aria-hidden": "true",
                 "class": "icon",
@@ -70,13 +70,13 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "to": "/about/",
           },
           "children": Array [
-            Object {
+            Node {
               "attribs": Object {
                 "aria-hidden": "true",
                 "class": "icon",
@@ -84,7 +84,7 @@ initialize {
               "children": Array [],
               "name": "i",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "data": "About",
                 "next": null,
                 "parent": [Circular],
@@ -103,11 +103,11 @@ initialize {
                 "class": undefined,
               },
             },
-            Object {
+            Node {
               "data": "About",
               "next": null,
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "aria-hidden": "true",
                   "class": "icon",
@@ -133,13 +133,13 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "to": "/blog/",
             },
             "children": Array [
-              Object {
+              Node {
                 "attribs": Object {
                   "aria-hidden": "true",
                   "class": "icon",
@@ -147,7 +147,7 @@ initialize {
                 "children": Array [],
                 "name": "i",
                 "namespace": "http://www.w3.org/1999/xhtml",
-                "next": Object {
+                "next": Node {
                   "data": "Blog",
                   "next": null,
                   "parent": [Circular],
@@ -166,11 +166,11 @@ initialize {
                   "class": undefined,
                 },
               },
-              Object {
+              Node {
                 "data": "Blog",
                 "next": null,
                 "parent": [Circular],
-                "prev": Object {
+                "prev": Node {
                   "attribs": Object {
                     "aria-hidden": "true",
                     "class": "icon",
@@ -233,13 +233,13 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "to": "/about/",
         },
         "children": Array [
-          Object {
+          Node {
             "attribs": Object {
               "aria-hidden": "true",
               "class": "icon",
@@ -247,7 +247,7 @@ initialize {
             "children": Array [],
             "name": "i",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "data": "About",
               "next": null,
               "parent": [Circular],
@@ -266,11 +266,11 @@ initialize {
               "class": undefined,
             },
           },
-          Object {
+          Node {
             "data": "About",
             "next": null,
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "aria-hidden": "true",
                 "class": "icon",
@@ -296,13 +296,13 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "to": "/blog/",
           },
           "children": Array [
-            Object {
+            Node {
               "attribs": Object {
                 "aria-hidden": "true",
                 "class": "icon",
@@ -310,7 +310,7 @@ initialize {
               "children": Array [],
               "name": "i",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "data": "Blog",
                 "next": null,
                 "parent": [Circular],
@@ -329,11 +329,11 @@ initialize {
                 "class": undefined,
               },
             },
-            Object {
+            Node {
               "data": "Blog",
               "next": null,
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "aria-hidden": "true",
                   "class": "icon",
@@ -373,13 +373,13 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "active item",
             "to": "/",
           },
           "children": Array [
-            Object {
+            Node {
               "attribs": Object {
                 "aria-hidden": "true",
                 "class": "icon",
@@ -387,7 +387,7 @@ initialize {
               "children": Array [],
               "name": "i",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "data": "Home",
                 "next": null,
                 "parent": [Circular],
@@ -406,11 +406,11 @@ initialize {
                 "class": undefined,
               },
             },
-            Object {
+            Node {
               "data": "Home",
               "next": null,
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "aria-hidden": "true",
                   "class": "icon",
@@ -459,13 +459,13 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "to": "/blog/",
         },
         "children": Array [
-          Object {
+          Node {
             "attribs": Object {
               "aria-hidden": "true",
               "class": "icon",
@@ -473,7 +473,7 @@ initialize {
             "children": Array [],
             "name": "i",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "data": "Blog",
               "next": null,
               "parent": [Circular],
@@ -492,11 +492,11 @@ initialize {
               "class": undefined,
             },
           },
-          Object {
+          Node {
             "data": "Blog",
             "next": null,
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "aria-hidden": "true",
                 "class": "icon",
@@ -524,13 +524,13 @@ initialize {
         "namespace": "http://www.w3.org/1999/xhtml",
         "next": null,
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "to": "/about/",
           },
           "children": Array [
-            Object {
+            Node {
               "attribs": Object {
                 "aria-hidden": "true",
                 "class": "icon",
@@ -538,7 +538,7 @@ initialize {
               "children": Array [],
               "name": "i",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "data": "About",
                 "next": null,
                 "parent": [Circular],
@@ -557,11 +557,11 @@ initialize {
                 "class": undefined,
               },
             },
-            Object {
+            Node {
               "data": "About",
               "next": null,
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "aria-hidden": "true",
                   "class": "icon",
@@ -589,13 +589,13 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "active item",
               "to": "/",
             },
             "children": Array [
-              Object {
+              Node {
                 "attribs": Object {
                   "aria-hidden": "true",
                   "class": "icon",
@@ -603,7 +603,7 @@ initialize {
                 "children": Array [],
                 "name": "i",
                 "namespace": "http://www.w3.org/1999/xhtml",
-                "next": Object {
+                "next": Node {
                   "data": "Home",
                   "next": null,
                   "parent": [Circular],
@@ -622,11 +622,11 @@ initialize {
                   "class": undefined,
                 },
               },
-              Object {
+              Node {
                 "data": "Home",
                 "next": null,
                 "parent": [Circular],
-                "prev": Object {
+                "prev": Node {
                   "attribs": Object {
                     "aria-hidden": "true",
                     "class": "icon",
@@ -689,22 +689,17 @@ initialize {
     "name": "div",
     "namespace": "http://www.w3.org/1999/xhtml",
     "next": null,
-    "parent": null,
-    "prev": null,
-    "root": Object {
-      "attribs": Object {},
+    "parent": Node {
       "children": Array [
         [Circular],
       ],
       "name": "root",
-      "namespace": "http://www.w3.org/1999/xhtml",
       "next": null,
       "parent": null,
       "prev": null,
       "type": "root",
-      "x-attribsNamespace": Object {},
-      "x-attribsPrefix": Object {},
     },
+    "prev": null,
     "type": "tag",
     "x-attribsNamespace": Object {
       "class": undefined,
@@ -713,12 +708,86 @@ initialize {
       "class": undefined,
     },
   },
-  "_root": [Circular],
+  "_root": LoadedCheerio {
+    "0": Node {
+      "children": Array [
+        Node {
+          "attribs": Object {},
+          "children": Array [
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "head",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "body",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "body",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "head",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+          ],
+          "name": "html",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
   "length": 1,
   "options": Object {
     "decodeEntities": true,
-    "normalizeWhitespace": false,
-    "withDomLvl1": true,
     "xml": false,
   },
 }

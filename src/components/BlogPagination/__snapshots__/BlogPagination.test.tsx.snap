@@ -1,20 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BlogPagination component should have first link active if no match 1`] = `
-initialize {
-  "0": Object {
+LoadedCheerio {
+  "0": Node {
     "attribs": Object {
       "class": "ui pagination menu",
     },
     "children": Array [
-      Object {
+      Node {
         "attribs": Object {
           "class": "active item",
           "style": "cursor:pointer",
           "to": "/blog/page/1/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "1",
             "next": null,
             "parent": [Circular],
@@ -24,14 +24,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/2/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "2",
               "next": null,
               "parent": [Circular],
@@ -41,14 +41,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/3/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "3",
                 "next": null,
                 "parent": [Circular],
@@ -58,12 +58,12 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "disabled item",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "...",
                   "next": null,
                   "parent": [Circular],
@@ -73,14 +73,14 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/10/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "10",
                     "next": null,
                     "parent": [Circular],
@@ -157,14 +157,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/2/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "2",
             "next": null,
             "parent": [Circular],
@@ -174,14 +174,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/3/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "3",
               "next": null,
               "parent": [Circular],
@@ -191,12 +191,12 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "disabled item",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "...",
                 "next": null,
                 "parent": [Circular],
@@ -206,14 +206,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/10/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "10",
                   "next": null,
                   "parent": [Circular],
@@ -263,14 +263,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
             "to": "/blog/page/1/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "1",
               "next": null,
               "parent": [Circular],
@@ -307,14 +307,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/3/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "3",
             "next": null,
             "parent": [Circular],
@@ -324,12 +324,12 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "disabled item",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "...",
               "next": null,
               "parent": [Circular],
@@ -339,14 +339,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/10/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "10",
                 "next": null,
                 "parent": [Circular],
@@ -382,14 +382,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/2/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "2",
               "next": null,
               "parent": [Circular],
@@ -401,14 +401,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
               "to": "/blog/page/1/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "1",
                 "next": null,
                 "parent": [Circular],
@@ -457,12 +457,12 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "disabled item",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "...",
             "next": null,
             "parent": [Circular],
@@ -472,14 +472,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/10/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "10",
               "next": null,
               "parent": [Circular],
@@ -505,14 +505,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/3/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "3",
               "next": null,
               "parent": [Circular],
@@ -524,14 +524,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/2/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "2",
                 "next": null,
                 "parent": [Circular],
@@ -543,14 +543,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/1/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "1",
                   "next": null,
                   "parent": [Circular],
@@ -607,14 +607,14 @@ initialize {
           "class": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/10/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "10",
             "next": null,
             "parent": [Circular],
@@ -626,12 +626,12 @@ initialize {
         "namespace": "http://www.w3.org/1999/xhtml",
         "next": null,
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "disabled item",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "...",
               "next": null,
               "parent": [Circular],
@@ -643,14 +643,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/3/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "3",
                 "next": null,
                 "parent": [Circular],
@@ -662,14 +662,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/2/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "2",
                   "next": null,
                   "parent": [Circular],
@@ -681,14 +681,14 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "active item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/1/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "1",
                     "next": null,
                     "parent": [Circular],
@@ -761,22 +761,17 @@ initialize {
     "name": "div",
     "namespace": "http://www.w3.org/1999/xhtml",
     "next": null,
-    "parent": null,
-    "prev": null,
-    "root": Object {
-      "attribs": Object {},
+    "parent": Node {
       "children": Array [
         [Circular],
       ],
       "name": "root",
-      "namespace": "http://www.w3.org/1999/xhtml",
       "next": null,
       "parent": null,
       "prev": null,
       "type": "root",
-      "x-attribsNamespace": Object {},
-      "x-attribsPrefix": Object {},
     },
+    "prev": null,
     "type": "tag",
     "x-attribsNamespace": Object {
       "class": undefined,
@@ -785,32 +780,106 @@ initialize {
       "class": undefined,
     },
   },
-  "_root": [Circular],
+  "_root": LoadedCheerio {
+    "0": Node {
+      "children": Array [
+        Node {
+          "attribs": Object {},
+          "children": Array [
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "head",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "body",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "body",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "head",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+          ],
+          "name": "html",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
   "length": 1,
   "options": Object {
     "decodeEntities": true,
-    "normalizeWhitespace": false,
-    "withDomLvl1": true,
     "xml": false,
   },
 }
 `;
 
 exports[`BlogPagination component should render correctly 5 pages 1`] = `
-initialize {
-  "0": Object {
+LoadedCheerio {
+  "0": Node {
     "attribs": Object {
       "class": "ui pagination menu",
     },
     "children": Array [
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/1/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "1",
             "next": null,
             "parent": [Circular],
@@ -820,14 +889,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
             "to": "/blog/page/2/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "2",
               "next": null,
               "parent": [Circular],
@@ -837,14 +906,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/3/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "3",
                 "next": null,
                 "parent": [Circular],
@@ -854,14 +923,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/4/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "4",
                   "next": null,
                   "parent": [Circular],
@@ -871,14 +940,14 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/5/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "5",
                     "next": null,
                     "parent": [Circular],
@@ -959,14 +1028,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "active item",
           "style": "cursor:pointer",
           "to": "/blog/page/2/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "2",
             "next": null,
             "parent": [Circular],
@@ -976,14 +1045,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/3/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "3",
               "next": null,
               "parent": [Circular],
@@ -993,14 +1062,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/4/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "4",
                 "next": null,
                 "parent": [Circular],
@@ -1010,14 +1079,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/5/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "5",
                   "next": null,
                   "parent": [Circular],
@@ -1071,14 +1140,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/1/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "1",
               "next": null,
               "parent": [Circular],
@@ -1115,14 +1184,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/3/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "3",
             "next": null,
             "parent": [Circular],
@@ -1132,14 +1201,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/4/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "4",
               "next": null,
               "parent": [Circular],
@@ -1149,14 +1218,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/5/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "5",
                 "next": null,
                 "parent": [Circular],
@@ -1196,14 +1265,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
             "to": "/blog/page/2/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "2",
               "next": null,
               "parent": [Circular],
@@ -1215,14 +1284,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/1/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "1",
                 "next": null,
                 "parent": [Circular],
@@ -1271,14 +1340,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/4/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "4",
             "next": null,
             "parent": [Circular],
@@ -1288,14 +1357,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/5/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "5",
               "next": null,
               "parent": [Circular],
@@ -1321,14 +1390,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/3/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "3",
               "next": null,
               "parent": [Circular],
@@ -1340,14 +1409,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
               "to": "/blog/page/2/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "2",
                 "next": null,
                 "parent": [Circular],
@@ -1359,14 +1428,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/1/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "1",
                   "next": null,
                   "parent": [Circular],
@@ -1427,14 +1496,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/5/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "5",
             "next": null,
             "parent": [Circular],
@@ -1446,14 +1515,14 @@ initialize {
         "namespace": "http://www.w3.org/1999/xhtml",
         "next": null,
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/4/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "4",
               "next": null,
               "parent": [Circular],
@@ -1465,14 +1534,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/3/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "3",
                 "next": null,
                 "parent": [Circular],
@@ -1484,14 +1553,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/2/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "2",
                   "next": null,
                   "parent": [Circular],
@@ -1503,14 +1572,14 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/1/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "1",
                     "next": null,
                     "parent": [Circular],
@@ -1587,22 +1656,17 @@ initialize {
     "name": "div",
     "namespace": "http://www.w3.org/1999/xhtml",
     "next": null,
-    "parent": null,
-    "prev": null,
-    "root": Object {
-      "attribs": Object {},
+    "parent": Node {
       "children": Array [
         [Circular],
       ],
       "name": "root",
-      "namespace": "http://www.w3.org/1999/xhtml",
       "next": null,
       "parent": null,
       "prev": null,
       "type": "root",
-      "x-attribsNamespace": Object {},
-      "x-attribsPrefix": Object {},
     },
+    "prev": null,
     "type": "tag",
     "x-attribsNamespace": Object {
       "class": undefined,
@@ -1611,32 +1675,106 @@ initialize {
       "class": undefined,
     },
   },
-  "_root": [Circular],
+  "_root": LoadedCheerio {
+    "0": Node {
+      "children": Array [
+        Node {
+          "attribs": Object {},
+          "children": Array [
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "head",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "body",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "body",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "head",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+          ],
+          "name": "html",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
   "length": 1,
   "options": Object {
     "decodeEntities": true,
-    "normalizeWhitespace": false,
-    "withDomLvl1": true,
     "xml": false,
   },
 }
 `;
 
 exports[`BlogPagination component should render correctly 10 pages 1`] = `
-initialize {
-  "0": Object {
+LoadedCheerio {
+  "0": Node {
     "attribs": Object {
       "class": "ui pagination menu",
     },
     "children": Array [
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/1/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "1",
             "next": null,
             "parent": [Circular],
@@ -1646,12 +1784,12 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "disabled item",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "...",
               "next": null,
               "parent": [Circular],
@@ -1661,14 +1799,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/3/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "3",
                 "next": null,
                 "parent": [Circular],
@@ -1678,14 +1816,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/4/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "4",
                   "next": null,
                   "parent": [Circular],
@@ -1695,14 +1833,14 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "active item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/5/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "5",
                     "next": null,
                     "parent": [Circular],
@@ -1712,14 +1850,14 @@ initialize {
                 ],
                 "name": "div",
                 "namespace": "http://www.w3.org/1999/xhtml",
-                "next": Object {
+                "next": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/6/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "6",
                       "next": null,
                       "parent": [Circular],
@@ -1729,14 +1867,14 @@ initialize {
                   ],
                   "name": "div",
                   "namespace": "http://www.w3.org/1999/xhtml",
-                  "next": Object {
+                  "next": Node {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
                       "to": "/blog/page/7/",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "7",
                         "next": null,
                         "parent": [Circular],
@@ -1746,12 +1884,12 @@ initialize {
                     ],
                     "name": "div",
                     "namespace": "http://www.w3.org/1999/xhtml",
-                    "next": Object {
+                    "next": Node {
                       "attribs": Object {
                         "class": "disabled item",
                       },
                       "children": Array [
-                        Object {
+                        Node {
                           "data": "...",
                           "next": null,
                           "parent": [Circular],
@@ -1761,14 +1899,14 @@ initialize {
                       ],
                       "name": "div",
                       "namespace": "http://www.w3.org/1999/xhtml",
-                      "next": Object {
+                      "next": Node {
                         "attribs": Object {
                           "class": "item",
                           "style": "cursor:pointer",
                           "to": "/blog/page/10/",
                         },
                         "children": Array [
-                          Object {
+                          Node {
                             "data": "10",
                             "next": null,
                             "parent": [Circular],
@@ -1897,12 +2035,12 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "disabled item",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "...",
             "next": null,
             "parent": [Circular],
@@ -1912,14 +2050,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/3/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "3",
               "next": null,
               "parent": [Circular],
@@ -1929,14 +2067,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/4/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "4",
                 "next": null,
                 "parent": [Circular],
@@ -1946,14 +2084,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/5/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "5",
                   "next": null,
                   "parent": [Circular],
@@ -1963,14 +2101,14 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/6/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "6",
                     "next": null,
                     "parent": [Circular],
@@ -1980,14 +2118,14 @@ initialize {
                 ],
                 "name": "div",
                 "namespace": "http://www.w3.org/1999/xhtml",
-                "next": Object {
+                "next": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/7/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "7",
                       "next": null,
                       "parent": [Circular],
@@ -1997,12 +2135,12 @@ initialize {
                   ],
                   "name": "div",
                   "namespace": "http://www.w3.org/1999/xhtml",
-                  "next": Object {
+                  "next": Node {
                     "attribs": Object {
                       "class": "disabled item",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "...",
                         "next": null,
                         "parent": [Circular],
@@ -2012,14 +2150,14 @@ initialize {
                     ],
                     "name": "div",
                     "namespace": "http://www.w3.org/1999/xhtml",
-                    "next": Object {
+                    "next": Node {
                       "attribs": Object {
                         "class": "item",
                         "style": "cursor:pointer",
                         "to": "/blog/page/10/",
                       },
                       "children": Array [
-                        Object {
+                        Node {
                           "data": "10",
                           "next": null,
                           "parent": [Circular],
@@ -2125,14 +2263,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/1/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "1",
               "next": null,
               "parent": [Circular],
@@ -2165,14 +2303,14 @@ initialize {
           "class": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/3/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "3",
             "next": null,
             "parent": [Circular],
@@ -2182,14 +2320,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/4/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "4",
               "next": null,
               "parent": [Circular],
@@ -2199,14 +2337,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
               "to": "/blog/page/5/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "5",
                 "next": null,
                 "parent": [Circular],
@@ -2216,14 +2354,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/6/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "6",
                   "next": null,
                   "parent": [Circular],
@@ -2233,14 +2371,14 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/7/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "7",
                     "next": null,
                     "parent": [Circular],
@@ -2250,12 +2388,12 @@ initialize {
                 ],
                 "name": "div",
                 "namespace": "http://www.w3.org/1999/xhtml",
-                "next": Object {
+                "next": Node {
                   "attribs": Object {
                     "class": "disabled item",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "...",
                       "next": null,
                       "parent": [Circular],
@@ -2265,14 +2403,14 @@ initialize {
                   ],
                   "name": "div",
                   "namespace": "http://www.w3.org/1999/xhtml",
-                  "next": Object {
+                  "next": Node {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
                       "to": "/blog/page/10/",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "10",
                         "next": null,
                         "parent": [Circular],
@@ -2364,12 +2502,12 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "disabled item",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "...",
               "next": null,
               "parent": [Circular],
@@ -2381,14 +2519,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/1/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "1",
                 "next": null,
                 "parent": [Circular],
@@ -2433,14 +2571,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/4/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "4",
             "next": null,
             "parent": [Circular],
@@ -2450,14 +2588,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
             "to": "/blog/page/5/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "5",
               "next": null,
               "parent": [Circular],
@@ -2467,14 +2605,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/6/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "6",
                 "next": null,
                 "parent": [Circular],
@@ -2484,14 +2622,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/7/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "7",
                   "next": null,
                   "parent": [Circular],
@@ -2501,12 +2639,12 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "disabled item",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "...",
                     "next": null,
                     "parent": [Circular],
@@ -2516,14 +2654,14 @@ initialize {
                 ],
                 "name": "div",
                 "namespace": "http://www.w3.org/1999/xhtml",
-                "next": Object {
+                "next": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/10/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "10",
                       "next": null,
                       "parent": [Circular],
@@ -2601,14 +2739,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/3/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "3",
               "next": null,
               "parent": [Circular],
@@ -2620,12 +2758,12 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "disabled item",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "...",
                 "next": null,
                 "parent": [Circular],
@@ -2637,14 +2775,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/1/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "1",
                   "next": null,
                   "parent": [Circular],
@@ -2701,14 +2839,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "active item",
           "style": "cursor:pointer",
           "to": "/blog/page/5/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "5",
             "next": null,
             "parent": [Circular],
@@ -2718,14 +2856,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/6/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "6",
               "next": null,
               "parent": [Circular],
@@ -2735,14 +2873,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/7/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "7",
                 "next": null,
                 "parent": [Circular],
@@ -2752,12 +2890,12 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "disabled item",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "...",
                   "next": null,
                   "parent": [Circular],
@@ -2767,14 +2905,14 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/10/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "10",
                     "next": null,
                     "parent": [Circular],
@@ -2838,14 +2976,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/4/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "4",
               "next": null,
               "parent": [Circular],
@@ -2857,14 +2995,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/3/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "3",
                 "next": null,
                 "parent": [Circular],
@@ -2876,12 +3014,12 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "disabled item",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "...",
                   "next": null,
                   "parent": [Circular],
@@ -2893,14 +3031,14 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/1/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "1",
                     "next": null,
                     "parent": [Circular],
@@ -2969,14 +3107,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/6/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "6",
             "next": null,
             "parent": [Circular],
@@ -2986,14 +3124,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/7/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "7",
               "next": null,
               "parent": [Circular],
@@ -3003,12 +3141,12 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "disabled item",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "...",
                 "next": null,
                 "parent": [Circular],
@@ -3018,14 +3156,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/10/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "10",
                   "next": null,
                   "parent": [Circular],
@@ -3075,14 +3213,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
             "to": "/blog/page/5/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "5",
               "next": null,
               "parent": [Circular],
@@ -3094,14 +3232,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/4/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "4",
                 "next": null,
                 "parent": [Circular],
@@ -3113,14 +3251,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/3/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "3",
                   "next": null,
                   "parent": [Circular],
@@ -3132,12 +3270,12 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "disabled item",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "...",
                     "next": null,
                     "parent": [Circular],
@@ -3149,14 +3287,14 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": [Circular],
                 "parent": [Circular],
-                "prev": Object {
+                "prev": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/1/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "1",
                       "next": null,
                       "parent": [Circular],
@@ -3237,14 +3375,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/7/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "7",
             "next": null,
             "parent": [Circular],
@@ -3254,12 +3392,12 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "disabled item",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "...",
               "next": null,
               "parent": [Circular],
@@ -3269,14 +3407,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/10/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "10",
                 "next": null,
                 "parent": [Circular],
@@ -3312,14 +3450,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/6/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "6",
               "next": null,
               "parent": [Circular],
@@ -3331,14 +3469,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
               "to": "/blog/page/5/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "5",
                 "next": null,
                 "parent": [Circular],
@@ -3350,14 +3488,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/4/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "4",
                   "next": null,
                   "parent": [Circular],
@@ -3369,14 +3507,14 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/3/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "3",
                     "next": null,
                     "parent": [Circular],
@@ -3388,12 +3526,12 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": [Circular],
                 "parent": [Circular],
-                "prev": Object {
+                "prev": Node {
                   "attribs": Object {
                     "class": "disabled item",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "...",
                       "next": null,
                       "parent": [Circular],
@@ -3405,14 +3543,14 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": [Circular],
                   "parent": [Circular],
-                  "prev": Object {
+                  "prev": Node {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
                       "to": "/blog/page/1/",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "1",
                         "next": null,
                         "parent": [Circular],
@@ -3505,12 +3643,12 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "disabled item",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "...",
             "next": null,
             "parent": [Circular],
@@ -3520,14 +3658,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/10/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "10",
               "next": null,
               "parent": [Circular],
@@ -3553,14 +3691,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/7/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "7",
               "next": null,
               "parent": [Circular],
@@ -3572,14 +3710,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/6/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "6",
                 "next": null,
                 "parent": [Circular],
@@ -3591,14 +3729,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/5/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "5",
                   "next": null,
                   "parent": [Circular],
@@ -3610,14 +3748,14 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/4/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "4",
                     "next": null,
                     "parent": [Circular],
@@ -3629,14 +3767,14 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": [Circular],
                 "parent": [Circular],
-                "prev": Object {
+                "prev": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/3/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "3",
                       "next": null,
                       "parent": [Circular],
@@ -3648,12 +3786,12 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": [Circular],
                   "parent": [Circular],
-                  "prev": Object {
+                  "prev": Node {
                     "attribs": Object {
                       "class": "disabled item",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "...",
                         "next": null,
                         "parent": [Circular],
@@ -3665,14 +3803,14 @@ initialize {
                     "namespace": "http://www.w3.org/1999/xhtml",
                     "next": [Circular],
                     "parent": [Circular],
-                    "prev": Object {
+                    "prev": Node {
                       "attribs": Object {
                         "class": "item",
                         "style": "cursor:pointer",
                         "to": "/blog/page/1/",
                       },
                       "children": Array [
-                        Object {
+                        Node {
                           "data": "1",
                           "next": null,
                           "parent": [Circular],
@@ -3773,14 +3911,14 @@ initialize {
           "class": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/10/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "10",
             "next": null,
             "parent": [Circular],
@@ -3792,12 +3930,12 @@ initialize {
         "namespace": "http://www.w3.org/1999/xhtml",
         "next": null,
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "disabled item",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "...",
               "next": null,
               "parent": [Circular],
@@ -3809,14 +3947,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/7/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "7",
                 "next": null,
                 "parent": [Circular],
@@ -3828,14 +3966,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/6/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "6",
                   "next": null,
                   "parent": [Circular],
@@ -3847,14 +3985,14 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "active item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/5/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "5",
                     "next": null,
                     "parent": [Circular],
@@ -3866,14 +4004,14 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": [Circular],
                 "parent": [Circular],
-                "prev": Object {
+                "prev": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/4/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "4",
                       "next": null,
                       "parent": [Circular],
@@ -3885,14 +4023,14 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": [Circular],
                   "parent": [Circular],
-                  "prev": Object {
+                  "prev": Node {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
                       "to": "/blog/page/3/",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "3",
                         "next": null,
                         "parent": [Circular],
@@ -3904,12 +4042,12 @@ initialize {
                     "namespace": "http://www.w3.org/1999/xhtml",
                     "next": [Circular],
                     "parent": [Circular],
-                    "prev": Object {
+                    "prev": Node {
                       "attribs": Object {
                         "class": "disabled item",
                       },
                       "children": Array [
-                        Object {
+                        Node {
                           "data": "...",
                           "next": null,
                           "parent": [Circular],
@@ -3921,14 +4059,14 @@ initialize {
                       "namespace": "http://www.w3.org/1999/xhtml",
                       "next": [Circular],
                       "parent": [Circular],
-                      "prev": Object {
+                      "prev": Node {
                         "attribs": Object {
                           "class": "item",
                           "style": "cursor:pointer",
                           "to": "/blog/page/1/",
                         },
                         "children": Array [
-                          Object {
+                          Node {
                             "data": "1",
                             "next": null,
                             "parent": [Circular],
@@ -4045,22 +4183,17 @@ initialize {
     "name": "div",
     "namespace": "http://www.w3.org/1999/xhtml",
     "next": null,
-    "parent": null,
-    "prev": null,
-    "root": Object {
-      "attribs": Object {},
+    "parent": Node {
       "children": Array [
         [Circular],
       ],
       "name": "root",
-      "namespace": "http://www.w3.org/1999/xhtml",
       "next": null,
       "parent": null,
       "prev": null,
       "type": "root",
-      "x-attribsNamespace": Object {},
-      "x-attribsPrefix": Object {},
     },
+    "prev": null,
     "type": "tag",
     "x-attribsNamespace": Object {
       "class": undefined,
@@ -4069,32 +4202,106 @@ initialize {
       "class": undefined,
     },
   },
-  "_root": [Circular],
+  "_root": LoadedCheerio {
+    "0": Node {
+      "children": Array [
+        Node {
+          "attribs": Object {},
+          "children": Array [
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "head",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "body",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "body",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "head",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+          ],
+          "name": "html",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
   "length": 1,
   "options": Object {
     "decodeEntities": true,
-    "normalizeWhitespace": false,
-    "withDomLvl1": true,
     "xml": false,
   },
 }
 `;
 
 exports[`BlogPagination component should render correctly 20 pages 1`] = `
-initialize {
-  "0": Object {
+LoadedCheerio {
+  "0": Node {
     "attribs": Object {
       "class": "ui pagination menu",
     },
     "children": Array [
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/1/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "1",
             "next": null,
             "parent": [Circular],
@@ -4104,12 +4311,12 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "disabled item",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "...",
               "next": null,
               "parent": [Circular],
@@ -4119,14 +4326,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/3/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "3",
                 "next": null,
                 "parent": [Circular],
@@ -4136,14 +4343,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/4/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "4",
                   "next": null,
                   "parent": [Circular],
@@ -4153,14 +4360,14 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "active item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/5/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "5",
                     "next": null,
                     "parent": [Circular],
@@ -4170,14 +4377,14 @@ initialize {
                 ],
                 "name": "div",
                 "namespace": "http://www.w3.org/1999/xhtml",
-                "next": Object {
+                "next": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/6/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "6",
                       "next": null,
                       "parent": [Circular],
@@ -4187,14 +4394,14 @@ initialize {
                   ],
                   "name": "div",
                   "namespace": "http://www.w3.org/1999/xhtml",
-                  "next": Object {
+                  "next": Node {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
                       "to": "/blog/page/7/",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "7",
                         "next": null,
                         "parent": [Circular],
@@ -4204,12 +4411,12 @@ initialize {
                     ],
                     "name": "div",
                     "namespace": "http://www.w3.org/1999/xhtml",
-                    "next": Object {
+                    "next": Node {
                       "attribs": Object {
                         "class": "disabled item",
                       },
                       "children": Array [
-                        Object {
+                        Node {
                           "data": "...",
                           "next": null,
                           "parent": [Circular],
@@ -4219,14 +4426,14 @@ initialize {
                       ],
                       "name": "div",
                       "namespace": "http://www.w3.org/1999/xhtml",
-                      "next": Object {
+                      "next": Node {
                         "attribs": Object {
                           "class": "item",
                           "style": "cursor:pointer",
                           "to": "/blog/page/20/",
                         },
                         "children": Array [
-                          Object {
+                          Node {
                             "data": "20",
                             "next": null,
                             "parent": [Circular],
@@ -4355,12 +4562,12 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "disabled item",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "...",
             "next": null,
             "parent": [Circular],
@@ -4370,14 +4577,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/3/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "3",
               "next": null,
               "parent": [Circular],
@@ -4387,14 +4594,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/4/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "4",
                 "next": null,
                 "parent": [Circular],
@@ -4404,14 +4611,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/5/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "5",
                   "next": null,
                   "parent": [Circular],
@@ -4421,14 +4628,14 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/6/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "6",
                     "next": null,
                     "parent": [Circular],
@@ -4438,14 +4645,14 @@ initialize {
                 ],
                 "name": "div",
                 "namespace": "http://www.w3.org/1999/xhtml",
-                "next": Object {
+                "next": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/7/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "7",
                       "next": null,
                       "parent": [Circular],
@@ -4455,12 +4662,12 @@ initialize {
                   ],
                   "name": "div",
                   "namespace": "http://www.w3.org/1999/xhtml",
-                  "next": Object {
+                  "next": Node {
                     "attribs": Object {
                       "class": "disabled item",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "...",
                         "next": null,
                         "parent": [Circular],
@@ -4470,14 +4677,14 @@ initialize {
                     ],
                     "name": "div",
                     "namespace": "http://www.w3.org/1999/xhtml",
-                    "next": Object {
+                    "next": Node {
                       "attribs": Object {
                         "class": "item",
                         "style": "cursor:pointer",
                         "to": "/blog/page/20/",
                       },
                       "children": Array [
-                        Object {
+                        Node {
                           "data": "20",
                           "next": null,
                           "parent": [Circular],
@@ -4583,14 +4790,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/1/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "1",
               "next": null,
               "parent": [Circular],
@@ -4623,14 +4830,14 @@ initialize {
           "class": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/3/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "3",
             "next": null,
             "parent": [Circular],
@@ -4640,14 +4847,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/4/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "4",
               "next": null,
               "parent": [Circular],
@@ -4657,14 +4864,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
               "to": "/blog/page/5/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "5",
                 "next": null,
                 "parent": [Circular],
@@ -4674,14 +4881,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/6/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "6",
                   "next": null,
                   "parent": [Circular],
@@ -4691,14 +4898,14 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/7/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "7",
                     "next": null,
                     "parent": [Circular],
@@ -4708,12 +4915,12 @@ initialize {
                 ],
                 "name": "div",
                 "namespace": "http://www.w3.org/1999/xhtml",
-                "next": Object {
+                "next": Node {
                   "attribs": Object {
                     "class": "disabled item",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "...",
                       "next": null,
                       "parent": [Circular],
@@ -4723,14 +4930,14 @@ initialize {
                   ],
                   "name": "div",
                   "namespace": "http://www.w3.org/1999/xhtml",
-                  "next": Object {
+                  "next": Node {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
                       "to": "/blog/page/20/",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "20",
                         "next": null,
                         "parent": [Circular],
@@ -4822,12 +5029,12 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "disabled item",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "...",
               "next": null,
               "parent": [Circular],
@@ -4839,14 +5046,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/1/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "1",
                 "next": null,
                 "parent": [Circular],
@@ -4891,14 +5098,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/4/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "4",
             "next": null,
             "parent": [Circular],
@@ -4908,14 +5115,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
             "to": "/blog/page/5/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "5",
               "next": null,
               "parent": [Circular],
@@ -4925,14 +5132,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/6/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "6",
                 "next": null,
                 "parent": [Circular],
@@ -4942,14 +5149,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/7/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "7",
                   "next": null,
                   "parent": [Circular],
@@ -4959,12 +5166,12 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "disabled item",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "...",
                     "next": null,
                     "parent": [Circular],
@@ -4974,14 +5181,14 @@ initialize {
                 ],
                 "name": "div",
                 "namespace": "http://www.w3.org/1999/xhtml",
-                "next": Object {
+                "next": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/20/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "20",
                       "next": null,
                       "parent": [Circular],
@@ -5059,14 +5266,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/3/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "3",
               "next": null,
               "parent": [Circular],
@@ -5078,12 +5285,12 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "disabled item",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "...",
                 "next": null,
                 "parent": [Circular],
@@ -5095,14 +5302,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/1/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "1",
                   "next": null,
                   "parent": [Circular],
@@ -5159,14 +5366,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "active item",
           "style": "cursor:pointer",
           "to": "/blog/page/5/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "5",
             "next": null,
             "parent": [Circular],
@@ -5176,14 +5383,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/6/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "6",
               "next": null,
               "parent": [Circular],
@@ -5193,14 +5400,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/7/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "7",
                 "next": null,
                 "parent": [Circular],
@@ -5210,12 +5417,12 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "disabled item",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "...",
                   "next": null,
                   "parent": [Circular],
@@ -5225,14 +5432,14 @@ initialize {
               ],
               "name": "div",
               "namespace": "http://www.w3.org/1999/xhtml",
-              "next": Object {
+              "next": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/20/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "20",
                     "next": null,
                     "parent": [Circular],
@@ -5296,14 +5503,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/4/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "4",
               "next": null,
               "parent": [Circular],
@@ -5315,14 +5522,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/3/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "3",
                 "next": null,
                 "parent": [Circular],
@@ -5334,12 +5541,12 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "disabled item",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "...",
                   "next": null,
                   "parent": [Circular],
@@ -5351,14 +5558,14 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/1/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "1",
                     "next": null,
                     "parent": [Circular],
@@ -5427,14 +5634,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/6/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "6",
             "next": null,
             "parent": [Circular],
@@ -5444,14 +5651,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/7/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "7",
               "next": null,
               "parent": [Circular],
@@ -5461,12 +5668,12 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "disabled item",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "...",
                 "next": null,
                 "parent": [Circular],
@@ -5476,14 +5683,14 @@ initialize {
             ],
             "name": "div",
             "namespace": "http://www.w3.org/1999/xhtml",
-            "next": Object {
+            "next": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/20/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "20",
                   "next": null,
                   "parent": [Circular],
@@ -5533,14 +5740,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "active item",
             "style": "cursor:pointer",
             "to": "/blog/page/5/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "5",
               "next": null,
               "parent": [Circular],
@@ -5552,14 +5759,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/4/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "4",
                 "next": null,
                 "parent": [Circular],
@@ -5571,14 +5778,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/3/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "3",
                   "next": null,
                   "parent": [Circular],
@@ -5590,12 +5797,12 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "disabled item",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "...",
                     "next": null,
                     "parent": [Circular],
@@ -5607,14 +5814,14 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": [Circular],
                 "parent": [Circular],
-                "prev": Object {
+                "prev": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/1/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "1",
                       "next": null,
                       "parent": [Circular],
@@ -5695,14 +5902,14 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/7/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "7",
             "next": null,
             "parent": [Circular],
@@ -5712,12 +5919,12 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "disabled item",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "...",
               "next": null,
               "parent": [Circular],
@@ -5727,14 +5934,14 @@ initialize {
           ],
           "name": "div",
           "namespace": "http://www.w3.org/1999/xhtml",
-          "next": Object {
+          "next": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/20/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "20",
                 "next": null,
                 "parent": [Circular],
@@ -5770,14 +5977,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/6/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "6",
               "next": null,
               "parent": [Circular],
@@ -5789,14 +5996,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "active item",
               "style": "cursor:pointer",
               "to": "/blog/page/5/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "5",
                 "next": null,
                 "parent": [Circular],
@@ -5808,14 +6015,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/4/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "4",
                   "next": null,
                   "parent": [Circular],
@@ -5827,14 +6034,14 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/3/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "3",
                     "next": null,
                     "parent": [Circular],
@@ -5846,12 +6053,12 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": [Circular],
                 "parent": [Circular],
-                "prev": Object {
+                "prev": Node {
                   "attribs": Object {
                     "class": "disabled item",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "...",
                       "next": null,
                       "parent": [Circular],
@@ -5863,14 +6070,14 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": [Circular],
                   "parent": [Circular],
-                  "prev": Object {
+                  "prev": Node {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
                       "to": "/blog/page/1/",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "1",
                         "next": null,
                         "parent": [Circular],
@@ -5963,12 +6170,12 @@ initialize {
           "to": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "disabled item",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "...",
             "next": null,
             "parent": [Circular],
@@ -5978,14 +6185,14 @@ initialize {
         ],
         "name": "div",
         "namespace": "http://www.w3.org/1999/xhtml",
-        "next": Object {
+        "next": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/20/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "20",
               "next": null,
               "parent": [Circular],
@@ -6011,14 +6218,14 @@ initialize {
           },
         },
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "item",
             "style": "cursor:pointer",
             "to": "/blog/page/7/",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "7",
               "next": null,
               "parent": [Circular],
@@ -6030,14 +6237,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/6/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "6",
                 "next": null,
                 "parent": [Circular],
@@ -6049,14 +6256,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "active item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/5/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "5",
                   "next": null,
                   "parent": [Circular],
@@ -6068,14 +6275,14 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/4/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "4",
                     "next": null,
                     "parent": [Circular],
@@ -6087,14 +6294,14 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": [Circular],
                 "parent": [Circular],
-                "prev": Object {
+                "prev": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/3/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "3",
                       "next": null,
                       "parent": [Circular],
@@ -6106,12 +6313,12 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": [Circular],
                   "parent": [Circular],
-                  "prev": Object {
+                  "prev": Node {
                     "attribs": Object {
                       "class": "disabled item",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "...",
                         "next": null,
                         "parent": [Circular],
@@ -6123,14 +6330,14 @@ initialize {
                     "namespace": "http://www.w3.org/1999/xhtml",
                     "next": [Circular],
                     "parent": [Circular],
-                    "prev": Object {
+                    "prev": Node {
                       "attribs": Object {
                         "class": "item",
                         "style": "cursor:pointer",
                         "to": "/blog/page/1/",
                       },
                       "children": Array [
-                        Object {
+                        Node {
                           "data": "1",
                           "next": null,
                           "parent": [Circular],
@@ -6231,14 +6438,14 @@ initialize {
           "class": undefined,
         },
       },
-      Object {
+      Node {
         "attribs": Object {
           "class": "item",
           "style": "cursor:pointer",
           "to": "/blog/page/20/",
         },
         "children": Array [
-          Object {
+          Node {
             "data": "20",
             "next": null,
             "parent": [Circular],
@@ -6250,12 +6457,12 @@ initialize {
         "namespace": "http://www.w3.org/1999/xhtml",
         "next": null,
         "parent": [Circular],
-        "prev": Object {
+        "prev": Node {
           "attribs": Object {
             "class": "disabled item",
           },
           "children": Array [
-            Object {
+            Node {
               "data": "...",
               "next": null,
               "parent": [Circular],
@@ -6267,14 +6474,14 @@ initialize {
           "namespace": "http://www.w3.org/1999/xhtml",
           "next": [Circular],
           "parent": [Circular],
-          "prev": Object {
+          "prev": Node {
             "attribs": Object {
               "class": "item",
               "style": "cursor:pointer",
               "to": "/blog/page/7/",
             },
             "children": Array [
-              Object {
+              Node {
                 "data": "7",
                 "next": null,
                 "parent": [Circular],
@@ -6286,14 +6493,14 @@ initialize {
             "namespace": "http://www.w3.org/1999/xhtml",
             "next": [Circular],
             "parent": [Circular],
-            "prev": Object {
+            "prev": Node {
               "attribs": Object {
                 "class": "item",
                 "style": "cursor:pointer",
                 "to": "/blog/page/6/",
               },
               "children": Array [
-                Object {
+                Node {
                   "data": "6",
                   "next": null,
                   "parent": [Circular],
@@ -6305,14 +6512,14 @@ initialize {
               "namespace": "http://www.w3.org/1999/xhtml",
               "next": [Circular],
               "parent": [Circular],
-              "prev": Object {
+              "prev": Node {
                 "attribs": Object {
                   "class": "active item",
                   "style": "cursor:pointer",
                   "to": "/blog/page/5/",
                 },
                 "children": Array [
-                  Object {
+                  Node {
                     "data": "5",
                     "next": null,
                     "parent": [Circular],
@@ -6324,14 +6531,14 @@ initialize {
                 "namespace": "http://www.w3.org/1999/xhtml",
                 "next": [Circular],
                 "parent": [Circular],
-                "prev": Object {
+                "prev": Node {
                   "attribs": Object {
                     "class": "item",
                     "style": "cursor:pointer",
                     "to": "/blog/page/4/",
                   },
                   "children": Array [
-                    Object {
+                    Node {
                       "data": "4",
                       "next": null,
                       "parent": [Circular],
@@ -6343,14 +6550,14 @@ initialize {
                   "namespace": "http://www.w3.org/1999/xhtml",
                   "next": [Circular],
                   "parent": [Circular],
-                  "prev": Object {
+                  "prev": Node {
                     "attribs": Object {
                       "class": "item",
                       "style": "cursor:pointer",
                       "to": "/blog/page/3/",
                     },
                     "children": Array [
-                      Object {
+                      Node {
                         "data": "3",
                         "next": null,
                         "parent": [Circular],
@@ -6362,12 +6569,12 @@ initialize {
                     "namespace": "http://www.w3.org/1999/xhtml",
                     "next": [Circular],
                     "parent": [Circular],
-                    "prev": Object {
+                    "prev": Node {
                       "attribs": Object {
                         "class": "disabled item",
                       },
                       "children": Array [
-                        Object {
+                        Node {
                           "data": "...",
                           "next": null,
                           "parent": [Circular],
@@ -6379,14 +6586,14 @@ initialize {
                       "namespace": "http://www.w3.org/1999/xhtml",
                       "next": [Circular],
                       "parent": [Circular],
-                      "prev": Object {
+                      "prev": Node {
                         "attribs": Object {
                           "class": "item",
                           "style": "cursor:pointer",
                           "to": "/blog/page/1/",
                         },
                         "children": Array [
-                          Object {
+                          Node {
                             "data": "1",
                             "next": null,
                             "parent": [Circular],
@@ -6503,22 +6710,17 @@ initialize {
     "name": "div",
     "namespace": "http://www.w3.org/1999/xhtml",
     "next": null,
-    "parent": null,
-    "prev": null,
-    "root": Object {
-      "attribs": Object {},
+    "parent": Node {
       "children": Array [
         [Circular],
       ],
       "name": "root",
-      "namespace": "http://www.w3.org/1999/xhtml",
       "next": null,
       "parent": null,
       "prev": null,
       "type": "root",
-      "x-attribsNamespace": Object {},
-      "x-attribsPrefix": Object {},
     },
+    "prev": null,
     "type": "tag",
     "x-attribsNamespace": Object {
       "class": undefined,
@@ -6527,23 +6729,122 @@ initialize {
       "class": undefined,
     },
   },
-  "_root": [Circular],
+  "_root": LoadedCheerio {
+    "0": Node {
+      "children": Array [
+        Node {
+          "attribs": Object {},
+          "children": Array [
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "head",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "body",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": null,
+                "parent": [Circular],
+                "prev": [Circular],
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "parent": [Circular],
+              "prev": null,
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+            Node {
+              "attribs": Object {},
+              "children": Array [],
+              "name": "body",
+              "namespace": "http://www.w3.org/1999/xhtml",
+              "next": null,
+              "parent": [Circular],
+              "prev": Node {
+                "attribs": Object {},
+                "children": Array [],
+                "name": "head",
+                "namespace": "http://www.w3.org/1999/xhtml",
+                "next": [Circular],
+                "parent": [Circular],
+                "prev": null,
+                "type": "tag",
+                "x-attribsNamespace": Object {},
+                "x-attribsPrefix": Object {},
+              },
+              "type": "tag",
+              "x-attribsNamespace": Object {},
+              "x-attribsPrefix": Object {},
+            },
+          ],
+          "name": "html",
+          "namespace": "http://www.w3.org/1999/xhtml",
+          "next": null,
+          "parent": [Circular],
+          "prev": null,
+          "type": "tag",
+          "x-attribsNamespace": Object {},
+          "x-attribsPrefix": Object {},
+        },
+      ],
+      "name": "root",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-mode": "quirks",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
   "length": 1,
   "options": Object {
     "decodeEntities": true,
-    "normalizeWhitespace": false,
-    "withDomLvl1": true,
     "xml": false,
   },
 }
 `;
 
 exports[`BlogPagination component should render nothing if only 1 page 1`] = `
-Object {
+LoadedCheerio {
+  "0": Document {
+    "children": Array [],
+    "endIndex": null,
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "startIndex": null,
+    "type": "root",
+  },
+  "_root": LoadedCheerio {
+    "0": Document {
+      "children": Array [],
+      "endIndex": null,
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "startIndex": null,
+      "type": "root",
+    },
+    "_root": [Circular],
+    "length": 1,
+    "options": Object {
+      "decodeEntities": true,
+      "xml": false,
+    },
+  },
+  "length": 1,
   "options": Object {
     "decodeEntities": true,
-    "normalizeWhitespace": false,
-    "withDomLvl1": true,
     "xml": false,
   },
 }
