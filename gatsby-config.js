@@ -60,7 +60,8 @@ module.exports = {
         start_url: `/`,
         background_color: `#f7f7f7`,
         theme_color: `#191919`,
-        display: `minimal-ui`
+        display: `minimal-ui`,
+        icon: `data/images/site_icon.png`
       }
     },
     /* eslint-enable camelcase */
