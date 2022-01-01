@@ -200,5 +200,8 @@
       "pre-commit": "lint-staged",
       "pre-push": "yarn test"
     }
+  },
+  "resolutions": {
+    "sharp": "^0.29.0"
   }
 }
