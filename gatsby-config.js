@@ -6,9 +6,7 @@ require("dotenv").config({
 module.exports = {
   pathPrefix: "",
   siteMetadata: {
-    title: `My website`,
-    googleVerification: `abcdefz`,
-    disqus: `gatsby-typescript`
+    title: `WillWeaver.dev`
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': `AuthorJson`
