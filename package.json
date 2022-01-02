@@ -4,29 +4,6 @@
   "description": "Personal site for Will Weaver",
   "author": "Will Weaver <williamdweaver@gmail.com>",
   "license": "MIT",
-  "scripts": {
-    "start": "yarn develop",
-    "develop": "gatsby develop",
-    "clean": "gatsby clean",
-    "clean-build": "yarn clean && yarn build",
-    "build": "gatsby build",
-    "lint": "yarn lint:ts && yarn lint:md && yarn lint:js && yarn lint:css",
-    "lint:ts": "tslint \"./src/**/*.ts\" \"./src/**/*.tsx\"",
-    "lint:md": "remark .",
-    "lint:js": "xo",
-    "lint:css": "stylelint \"src/**/*.css\"",
-    "lint:scss": "stylelint src/**/*.scss --syntax scss",
-    "test": "yarn lint && jest",
-    "test:watch": "jest --watch",
-    "generate": "plop --plopfile ./generators/plopfile.js",
-    "graphql-types": "graphql-codegen --config ./graphql-config.yml",
-    "storybook": "start-storybook -p 9001 -c .storybook",
-    "storybook:build": "build-storybook -c .storybook -o public/docs",
-    "codeclimate": "codeclimate-test-reporter < coverage/lcov.info",
-    "deploy:build": "gatsby build --prefix-paths",
-    "deploy:pages": "gh-pages -d public",
-    "deploy": "yarn deploy:build && yarn deploy:pages"
-  },
   "dependencies": {
     "@graphql-codegen/add": "^1.13.5",
     "@graphql-codegen/cli": "^1.13.5",
@@ -48,6 +25,7 @@
     "gatsby-remark-images": "^3.3.1",
     "gatsby-remark-prismjs": "^3.5.1",
     "gatsby-source-filesystem": "^2.3.1",
+    "gatsby-source-google-spreadsheets": "^3.0.8",
     "gatsby-transformer-json": "^2.4.1",
     "gatsby-transformer-remark": "^2.8.7",
     "gatsby-transformer-sharp": "^2.5.2",
@@ -114,6 +92,9 @@
     "ts-lint": "4.5.1",
     "typescript": "^3.8.3",
     "xo": "0.30.0"
+  },
+  "resolutions": {
+    "sharp": "^0.29.0"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -201,7 +182,27 @@
       "pre-push": "yarn test"
     }
   },
-  "resolutions": {
-    "sharp": "^0.29.0"
+  "scripts": {
+    "start": "yarn develop",
+    "develop": "gatsby develop",
+    "clean": "gatsby clean",
+    "clean-build": "yarn clean && yarn build",
+    "build": "gatsby build",
+    "lint": "yarn lint:ts && yarn lint:md && yarn lint:js && yarn lint:css",
+    "lint:ts": "tslint \"./src/**/*.ts\" \"./src/**/*.tsx\"",
+    "lint:md": "remark .",
+    "lint:js": "xo",
+    "lint:css": "stylelint \"src/**/*.css\"",
+    "lint:scss": "stylelint src/**/*.scss --syntax scss",
+    "test": "yarn lint && jest",
+    "test:watch": "jest --watch",
+    "generate": "plop --plopfile ./generators/plopfile.js",
+    "graphql-types": "graphql-codegen --config ./graphql-config.yml",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "storybook:build": "build-storybook -c .storybook -o public/docs",
+    "codeclimate": "codeclimate-test-reporter < coverage/lcov.info",
+    "deploy:build": "gatsby build --prefix-paths",
+    "deploy:pages": "gh-pages -d public",
+    "deploy": "yarn deploy:build && yarn deploy:pages"
   }
 }
