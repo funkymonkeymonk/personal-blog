@@ -24,13 +24,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn install --frozen-lockfile
+    - name: create env file from secrets
+      uses: SpicyPizza/create-envfile@v1
+      with:
+        envkey_PROJECT_ID: ${{ secrets.PROJECT_ID }}
+        envkey_PRIVATE_KEY_ID: ${{ secrets.PRIVATE_KEY_ID }}
+        envkey_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+        envkey_CLIENT_EMAIL: ${{ secrets.CLIENT_EMAIL }}
+        envkey_SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
+        file_name: .env.production
     - run: yarn build
-      env:
-        PROJECT_ID: ${{ secrets.PROJECT_ID }}
-        PRIVATE_KEY_ID: ${{ secrets.PRIVATE_KEY_ID }}
-        PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-        CLIENT_EMAIL: ${{ secrets.CLIENT_EMAIL }}
-        SPREADSHEET_ID: ${{ secrets.SPREADSHEET_ID }}
     - run: yarn test
     - run: yarn deploy:build
     - name: Deploy 🚀
