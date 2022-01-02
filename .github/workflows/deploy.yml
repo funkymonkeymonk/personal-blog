@@ -3,6 +3,8 @@
 
 name: Deploy
 on:
+  schedule:
+    - cron: "0 3 * * *"
   push:
     branches: [ master ]
     paths-ignore:
