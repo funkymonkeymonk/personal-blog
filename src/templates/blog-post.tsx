@@ -94,10 +94,6 @@ const BlogPostPage = (props: BlogPostProps) => {
       </Segment>
       {props.data.site
         && props.data.site.siteMetadata
-        && props.data.site.siteMetadata.disqus
-        && <Segment vertical>
-            <DiscussionEmbed shortname={props.data.site.siteMetadata.disqus} config={{}}/>
-        </Segment>
       }
       <Segment vertical>
         <Grid padded centered>
@@ -112,11 +108,6 @@ export default withLayout(BlogPostPage);
 
 export const pageQuery = graphql`
   query TemplateBlogPost($slug: String!) {
-  site: site {
-    siteMetadata {
-        disqus
-    }
-  }
   post: markdownRemark(fields: {slug: {eq: $slug}}) {
     html
     excerpt
