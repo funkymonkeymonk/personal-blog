@@ -1,12 +1,8 @@
 import * as React from "react";
-import { Link } from "gatsby";
-import { StaticQuery, graphql } from "gatsby";
-import { Header, Grid, Card, List, Container, Feed, Segment, Comment } from "semantic-ui-react";
-import { MarkdownRemarkConnection, ImageSharp } from "../graphql-types";
+import { graphql } from "gatsby";
+import { Grid, Card, Container, Segment, Comment } from "semantic-ui-react";
+import { MarkdownRemarkConnection } from "../graphql-types";
 import BlogmarksTitle from "../components/BlogmarksTitle";
-import TagsCard from "../components/TagsCard/TagsCard";
-import BlogPagination from "../components/BlogPagination/BlogPagination";
-import { get } from "lodash";
 import {withLayout, LayoutProps} from "../components/Layout";
 import { MarkdownRemark } from "../graphql-types";
 
@@ -30,9 +26,7 @@ const BlogmarksPage = (props: BlogmarksProps) => {
   const Blogmarks = (
     <Container>
       {blogmarks.map(({ node }: {node: MarkdownRemark}) => {
-        const { frontmatter, timeToRead, fields: { slug }, excerpt } = node;
-        const avatar = frontmatter.author.avatar.children[0] as ImageSharp;
-        const cover = get(frontmatter, "image.children.0.fixed", {});
+        const { frontmatter } = node;
 
         const extra = (
           <Comment.Group>

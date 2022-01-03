@@ -74,7 +74,6 @@ module.exports = {
     // site!
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cms`,
     /* eslint-disable camelcase */
     {
       resolve: 'gatsby-source-google-spreadsheets',
