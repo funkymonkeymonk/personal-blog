@@ -5,10 +5,10 @@ import { withLayout, LayoutProps, menuItems } from "../components/Layout";
 import {
   Segment,
   Grid,
-  Header
+  Header,
 } from "semantic-ui-react";
 // @ts-ignore
-import waveHi from './images/WaveHi.png'
+import waveHi from "./images/WaveHi.png";
 
 const IndexPage = (props: LayoutProps) =>
   <div>
