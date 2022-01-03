@@ -187,7 +187,7 @@
     "lint:js": "xo",
     "lint:css": "stylelint \"src/**/*.css\"",
     "lint:scss": "stylelint src/**/*.scss --syntax scss",
-    "test": "yarn lint && jest",
+    "test": "jest",
     "test:watch": "jest --watch",
     "generate": "plop --plopfile ./generators/plopfile.js",
     "graphql-types": "graphql-codegen --config ./graphql-config.yml",
