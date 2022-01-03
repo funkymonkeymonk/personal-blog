@@ -7,6 +7,7 @@ import {
   Grid,
   Header
 } from "semantic-ui-react";
+// @ts-ignore
 import waveHi from './images/WaveHi.png'
 
 const IndexPage = (props: LayoutProps) =>
